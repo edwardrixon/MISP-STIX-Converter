@@ -27,6 +27,14 @@ Useful, huh?
 
 ### The config file
 
+- <details open><summary>From Docker</summary>
+
+Run the Following File once installed;
+
+configuration.sh
+
+- <details><summary>From Bare Tin</summary>
+
 Copy over the example config to a live version
 
 The default location of this config file is at `~/.misptostix`, but this can be
@@ -36,6 +44,9 @@ overridden with the `-c FILE` flag when running the scripts.
 
 Then open it and change the variables. This is YAML format, so make sure
 you don't do a silly and format it wrong!
+
+</details>
+</details>
 
 ## Usage
 
