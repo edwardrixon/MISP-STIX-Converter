@@ -13,11 +13,11 @@ setup(
     url="https://github.com/FloatingGhost/MISP-STIX-Converter",
     packages=["misp_stix_converter", "misp_stix_converter.servers",
               "misp_stix_converter.converters"],
-    install_requires=["pymisp>=2.4.56", "requests>=2.9.1", "pyaml>=3.11",
-                      "stix>=1.2", "cybox>=2.0", "nose", "cabby", "maec"],
+    install_requires=["pymisp>=2.4.56", "requests>=2.27.1", "pyaml>=3.11",
+                      "stix>=1.2", "cybox>=2.0", "nose", "cabby", "maec", "python-dateutil>=2.8.2"],
     dependency_links=["git+https://github.com/MISP/PyMISP#egg=pymisp",
                       "git+https://github.com/STIXProject/python-stix.git",
                       "git+https://github.com/CybOXProject/python-cybox.git"],
     scripts=["misp_stix_converter/misp-to-stix.py",
              "misp_stix_converter/stix-to-misp.py"],
-)
+    )
